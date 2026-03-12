@@ -11,6 +11,14 @@ interface Props {
     time: string;
     location: string;
     slug: string;
+    description: string;
+    overview: string;
+    tags: string[];
+    organizer: string;
+    audience: string;
+    agenda: string[];
+    mode: string;
+    venue: string;
 }
 
 const EventCard = ({ title, image, slug, time, location, date }: Props) => {
